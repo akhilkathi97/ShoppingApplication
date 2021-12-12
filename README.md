@@ -25,6 +25,12 @@ CREATE TABLE ITEM_DETAILS (ITEM_ID INT,ITEM_NAME VARCHAR(225),ITEM_PRICE DECIMAL
 CREATE TABLE USER_DETAILS (USER_ID INT,FIRST_NAME VARCHAR(20) ,LAST_NAME VARCHAR(20),USER_TYPE VARCHAR(8))
 ```
 
+Update **application.properties** for database details
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=root
+spring.datasource.password=admin
+```
 
 Controllers : \
   /users  
